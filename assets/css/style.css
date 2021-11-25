@@ -24,21 +24,34 @@ html {
 
 #nav li {
     display: inline-block;
+    position: relative;
 }
 
-#nav li a{
+#nav li:hover a {
+    display: inline-block;
+    background-color: #ccc;
+    color: #000;
+}
+#nav > li >a {
     color: #fff;
+}
+#nav li a {
+   
     text-decoration: none;
     line-height: 46px;
     padding: 0 24px;
 }
 
 #nav .subnav{
-    display: none;
+    /* display: none; */
+    background-color: #fff;
+    position: absolute;
+
 }
 
 #slider {
-
+    min-height: 500px;
+    background-color: #333;
 }
 
 #content {
