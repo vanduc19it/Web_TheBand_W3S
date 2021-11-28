@@ -12,10 +12,29 @@ html {
 #main {
 
 }
-
+#nav {
+    display: inline-block;
+}
 #header {
     height: 46px;
     background-color: #000;
+}
+
+#header .search-btn{
+    float: right;
+    padding:0 21px;   
+}
+
+#header .search-btn:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+
+#header .search-icon{
+    color: #fff;
+    font-size: 20px;
+    line-height:46px;
 }
 
 #nav, .subnav {
@@ -25,6 +44,9 @@ html {
 #nav > li {
     display: inline-block;
     
+}
+#nav .nav-arrow-down {
+    font-size: 14px;
 }
 
 #nav li {
