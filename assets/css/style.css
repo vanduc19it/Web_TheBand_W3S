@@ -127,10 +127,34 @@ html {
 }
 
 #content {
-    background-color: rgb(70, 129, 163);
+
     height:1000px;
 }
 
+#content .content-section{
+    Width:800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:64px 0;
+
+}
+#content .section-heading{
+    text-align: center;
+    font-size:30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+#content .section-subheading{
+    text-align: center;
+    font-size: 15px;
+    margin:25px 0;
+    font-style: italic;
+    opacity: 0.6;
+}
+#content .about-text{
+    text-align: justify;
+    line-height:1.4;
+}
 #footer {
  
     
