@@ -102,7 +102,7 @@ html {
 #slider {
    margin-top: 46px;
    padding-top: 50%;
-   background:url('/assets/image/slider/slider1.jpg') center top / cover no-repeat;
+   background:url('/Web_TheBand_W3S/assets/image/slider/slider1.jpg') center top / cover no-repeat;
    position: relative;
 }
 #slider .text-content {
@@ -173,6 +173,7 @@ html {
     margin-top: 15px;
     border-radius:5px;
 }
+#tour-ticket
 .tour-section {
     background-color: #000;
 }
@@ -260,3 +261,4 @@ html {
 /* #footer {
    
 } */
+
