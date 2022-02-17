@@ -423,6 +423,9 @@ html {
     color: #000;
     border: 1px solid #ccc;
 } */
+.map-section img {
+    width: 100%;
+}
 /* #footer {
    
 } */
