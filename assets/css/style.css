@@ -248,6 +248,7 @@ html {
     padding: 11px 16px;
     display: inline-block;
     margin-top: 15px;
+    border: none;
 }
 .place-buy-btn:hover {
     color: #000;
@@ -263,10 +264,10 @@ html {
     right: 0;
     bottom: 0;
     background-color: rgba(0,0,0,0.4);
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
-    /* display:none; */
+    display:none;
 }
 .modal.open {
     display: flex;
@@ -277,6 +278,7 @@ html {
     max-width: calc(100% - 32px);
     min-height: 200px;
     position: relative;
+    animation: modalFadeIn ease .5s;
 }
 .modal-header {
     background-color: #009688;
@@ -353,6 +355,17 @@ html {
 }
 .modal-footer a {
     color: #1ba1ee;
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-140px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 /* #footer {
    
