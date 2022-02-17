@@ -135,7 +135,7 @@ html {
     Width:800px;
     margin-left: auto;
     margin-right: auto;
-    padding:64px 0;
+    padding:64px 0 112px;
 
 }
 #content .section-heading{
@@ -204,8 +204,6 @@ html {
 }
 .places-list {
     margin-top: 32px;
-    margin-bottom: 48px;
-    background-color: #000;
 }
 .col-third {
     width: 33.3333%;
@@ -234,7 +232,10 @@ html {
     margin-top: 15px;
     line-height: 1.4;
 }
-.place-buy-btn {
+.pull-right {
+    float: right !important;
+}
+.btn {
     color: #fff;
     background-color: #000;
     text-decoration: none;
@@ -243,7 +244,8 @@ html {
     margin-top: 15px;
     border: none;
 }
-.place-buy-btn:hover {
+.btn:hover {
+    cursor: pointer;
     color: #000;
     background-color: #ccc;
 }
@@ -409,7 +411,7 @@ html {
     border: 1px solid #ccc;
     width: 100%;
 }
-.contact-form .form-submit-btn {
+/* .contact-form .form-submit-btn {
     border: 1px solid #000;
     color: #fff;
     background-color: #000;
@@ -420,7 +422,7 @@ html {
     background-color: #ccc;
     color: #000;
     border: 1px solid #ccc;
-}
+} */
 /* #footer {
    
 } */
