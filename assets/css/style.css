@@ -159,11 +159,6 @@ html {
     margin-top:48px;
     overflow:hidden;
 }
-#content .member-item{
-    float: left;
-    width:33.333333%;
-    text-align: center;
-}
 #content .member-name {
     font-size: 15px;
    
@@ -208,14 +203,12 @@ html {
     margin-top: -3px;
 }
 .places-list {
-    margin: 32px -8px 0;
+    margin-top: 32px;
+    margin-bottom: 48px;
     background-color: #000;
-    padding-bottom: 48px;
 }
-.place-item {
-    float: left;
+.col-third {
     width: 33.3333%;
-    padding: 0 8px;
 }
 .place-img {
     width: 100%;
@@ -256,6 +249,21 @@ html {
 }
 .clear {
     clear: both;
+}
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-half {
+    width: 50%;
+}
+.text-center {
+    text-align: center !important;
 }
 .modal {
     position: fixed;
