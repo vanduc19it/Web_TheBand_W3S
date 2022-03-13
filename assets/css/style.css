@@ -24,7 +24,6 @@ html {
     left: 0;
     right: 0;
     z-index: 1;
-    overflow: hidden;
 }
 #header .mobile-menu-btn {
     position: absolute;
