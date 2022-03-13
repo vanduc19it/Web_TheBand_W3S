@@ -170,7 +170,7 @@ html {
     line-height:1.4;
 }
 #content .member-list{
-    margin-top:48px;
+    margin-top:32px;
     overflow:hidden;
 }
 #content .member-name {
@@ -217,7 +217,7 @@ html {
     margin-top: -3px;
 }
 .places-list {
-    margin-top: 32px;
+    margin-top: 16px;
 }
 .col-third {
     width: 33.3333%;

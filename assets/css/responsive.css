@@ -37,4 +37,10 @@
     #header .mobile-menu-btn {
         display: block;
     }
+    #content .member-img {
+        width: 60%;
+    }
+    .s-col-full {
+        width: 100%;
+    }
 }
