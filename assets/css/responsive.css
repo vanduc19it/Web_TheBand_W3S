@@ -40,8 +40,15 @@
     #content .member-img {
         width: 60%;
     }
+    .s-full-width,
     .s-col-full {
-        width: 100%;
+        width: 100% !important;
+    }
+    .contact-form {
+        margin-top: 16px;
+    }
+    .s-mt-8 {
+        margin-top: 8px !important;
     }
 }
 
